@@ -12,6 +12,7 @@ header {
   border-bottom: 1px solid black;
   padding-bottom: 10px;
   background-color: white;
+  z-index: 5;
 }
 
 .logo {
@@ -42,4 +43,31 @@ nav span {
   padding: 20px 10px;
 }
 
-/* Column1 styling */
+/* Content styling */
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+p {
+  display: block;
+  margin: 16px 0 16px 0;
+}
