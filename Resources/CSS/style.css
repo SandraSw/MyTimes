@@ -63,11 +63,37 @@ nav span {
   width: 630px;
 }
 
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
 div {
   border: 1px solid black;
 }
 
+h2,
+  h3 {
+    font-weight: bold;
+  }
+
+h2 {
+  margin: 19px 0;
+}
+
+h3 {
+  margin: 19px 0;
+}
+
 p {
   display: block;
-  margin: 16px 0 16px 0;
+  margin: 16px 0;
+}
+
+.cookie img {
+  width: 240px;
+  height: 240px;
 }
