@@ -11,6 +11,7 @@ header {
   font-weight: bold;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
+  background-color: white;
 }
 
 .logo {
@@ -40,3 +41,5 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+/* Column1 styling */
