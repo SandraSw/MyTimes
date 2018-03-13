@@ -76,17 +76,9 @@ nav a {
   width: 200px;
 }
 
-h2,
-  h3 {
-    font-weight: bold;
-  }
-
 h2 {
-  margin: 19px 0;
-}
-
-h3 {
-  margin: 19px 0;
+    font-weight: bold;
+    margin: 19px 0;
 }
 
 .narrative,
@@ -125,6 +117,28 @@ h3 {
 
 .stories .text-content {
   height: 250px;
+}
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 41px;
+}
+
+.news-bites {
+  display: flex;
+  flex-direction: column;
+}
+
+.bite {
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 11px 20px;
 }
 
 /* Images styling */
