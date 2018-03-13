@@ -3,6 +3,8 @@
 header {
   display: flex;
   position: fixed;
+  top: 0;
+  left: 0;
   align-items: center;
   width: 100%;
   height: 80px;
@@ -12,7 +14,7 @@ header {
   border-bottom: 1px solid black;
   padding-bottom: 10px;
   background-color: white;
-  z-index: 5;
+  z-index: 1;
 }
 
 .logo {
@@ -54,7 +56,6 @@ nav a {
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
-  border: 1px solid black;
 }
 
 .column {
@@ -72,11 +73,7 @@ nav a {
 }
 
 .column.small {
-  width: 240px;
-}
-
-div {
-  border: 1px solid black;
+  width: 200px;
 }
 
 h2,
@@ -92,16 +89,42 @@ h3 {
   margin: 19px 0;
 }
 
-p {
-  display: block;
-  margin: 16px 0;
-}
-
 .narrative,
   .bite {
     font-family: Georgia;
     font-size: 17px;
     color: black;
+}
+
+.narrative {
+  display: block;
+  margin: 16px 0;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+  width: 630px;
+}
+
+.story {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.lead.story {
+  width: 630px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.stories .text-content {
+  height: 250px;
 }
 
 /* Images styling */
@@ -113,6 +136,7 @@ p {
 .image-content {
   height: 300px;
   text-align: center;
+  margin-top: 16px;
 }
 
 .image-content span {
