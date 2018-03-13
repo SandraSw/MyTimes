@@ -43,6 +43,10 @@ nav span {
   padding: 20px 10px;
 }
 
+nav a {
+  color: black;
+}
+
 /* Content styling */
 
 .content {
@@ -93,7 +97,54 @@ p {
   margin: 16px 0;
 }
 
+.narrative,
+  .bite {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+/* Images styling */
+
+.image-content div {
+  display: flex;
+}
+
+.image-content {
+  height: 300px;
+  text-align: center;
+}
+
+.image-content span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.lead.image-content span {
+  font-size: 40px;
+}
+
 .cookie img {
   width: 240px;
   height: 240px;
+}
+
+.lead.image-content {
+  background-image: url("../Images/MainStory.png");
+  text-align: left;
+}
+
+.fall.image-content {
+  background-image: url("../Images/FallSeason.png");
+}
+
+.pop-culture.image-content {
+  background-image: url("../Images/HipsterCameraman.png");
+}
+
+.cat.image-content {
+  background-image: url("../Images/CatCEO.png");
 }
